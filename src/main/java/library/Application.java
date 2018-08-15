@@ -21,10 +21,6 @@ public class Application {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/bookmanage/read");
-                registry.addMapping("/bookmanage/search");
-                registry.addMapping("/bookmanage/delete");
-                registry.addMapping("/bookmanage/create");
-
             }
         };
     }
